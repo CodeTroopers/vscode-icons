@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><title>folder_type_agents_opened</title>
+  <!-- Folder body (opened) -->
+  <path d="M27.4,5.5H18.2L16.1,9.7H4.3V26.5H29.5V5.5Zm0,18.7H6.6V11.8H27.4Zm0-14.5H19.2l1-2.1h7.1V9.7Z" style="fill:#dbdbdb"/>
+  <polygon points="25.7 13.7 0.5 13.7 4.3 26.5 29.5 26.5 25.7 13.7" style="fill:#dbdbdb"/>
+
+  <!-- Agent logo: same transform as closed version -->
+  <g transform="translate(12.4706, 12.1397) scale(0.1103)">
+    <!-- pulse rings -->
+    <circle fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" cx="100" cy="103" r="68"/>
+    <circle fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" cx="100" cy="103" r="54"/>
+
+    <!-- outer hex -->
+    <polygon fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="2.5" stroke-linejoin="round"
+      points="100,57 140,80 140,126 100,149 60,126 60,80"/>
+
+    <!-- inner hex filled -->
+    <polygon fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.55)" stroke-width="2" stroke-linejoin="round"
+      points="100,73 126,88 126,118 100,133 74,118 74,88"/>
+
+    <!-- rays -->
+    <line stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" x1="100" y1="73"  x2="100" y2="57"/>
+    <line stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" x1="126" y1="88"  x2="140" y2="80"/>
+    <line stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" x1="126" y1="118" x2="140" y2="126"/>
+    <line stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" x1="100" y1="133" x2="100" y2="149"/>
+    <line stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" x1="74"  y1="118" x2="60"  y2="126"/>
+    <line stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" x1="74"  y1="88"  x2="60"  y2="80"/>
+
+    <!-- outer hex vertex dots -->
+    <circle fill="#fff" cx="100" cy="57"  r="4.5"/>
+    <circle fill="#fff" cx="140" cy="80"  r="4.5"/>
+    <circle fill="#fff" cx="140" cy="126" r="4.5"/>
+    <circle fill="#fff" cx="100" cy="149" r="4.5"/>
+    <circle fill="#fff" cx="60"  cy="126" r="4.5"/>
+    <circle fill="#fff" cx="60"  cy="80"  r="4.5"/>
+
+    <!-- inner hex vertex dots -->
+    <circle fill="rgba(255,255,255,0.65)" cx="100" cy="73"  r="3"/>
+    <circle fill="rgba(255,255,255,0.65)" cx="126" cy="88"  r="3"/>
+    <circle fill="rgba(255,255,255,0.65)" cx="126" cy="118" r="3"/>
+    <circle fill="rgba(255,255,255,0.65)" cx="100" cy="133" r="3"/>
+    <circle fill="rgba(255,255,255,0.65)" cx="74"  cy="118" r="3"/>
+    <circle fill="rgba(255,255,255,0.65)" cx="74"  cy="88"  r="3"/>
+
+    <!-- center core -->
+    <circle fill="rgba(255,255,255,0.18)" cx="100" cy="103" r="14"/>
+    <circle fill="#fff" cx="100" cy="103" r="6"/>
+    <!-- center spark -->
+    <line stroke="#dbdbdb" stroke-width="2.5" stroke-linecap="round" x1="100" y1="93"  x2="100" y2="99"/>
+    <line stroke="#dbdbdb" stroke-width="2.5" stroke-linecap="round" x1="100" y1="107" x2="100" y2="113"/>
+    <line stroke="#dbdbdb" stroke-width="2.5" stroke-linecap="round" x1="90"  y1="103" x2="96"  y2="103"/>
+    <line stroke="#dbdbdb" stroke-width="2.5" stroke-linecap="round" x1="104" y1="103" x2="110" y2="103"/>
+  </g>
+</svg>
